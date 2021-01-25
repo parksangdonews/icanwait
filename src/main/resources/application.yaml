@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: true
+    check-template: true
+    enabled: true
+    encoding: UTF-8
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
